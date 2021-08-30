@@ -56,7 +56,7 @@
     } else if (snowBall.y < 0) {
       snowBall.y = canvas.height;
     }
-  }
+  } 
 
   function run() {
     const { canvas, canvasContext, numberOfSnowBalls } = setup();
