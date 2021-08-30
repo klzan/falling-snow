@@ -1,5 +1,31 @@
 body {
     background-image: url('https://cdn.wallpapersafari.com/12/60/ELca4t.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+     
+    height: 100vh; 
+    font-weight: bold; 
+    text-align: center;  
+    text-transform: uppercase; 
+     
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    justify-content: center; 
   } 
+ 
+  h1 { 
+    font-size: 3.5em; 
+  } 
+
+   .coundown { 
+     display: inline-block; 
+     font-size: 1.7; 
+     padding: 1em;
+   }  
+    
+   .coundown { 
+    display: block; 
+    font-size: 5rem; 
+  } 
+    
